@@ -19,5 +19,8 @@ Script performs the following at the Windows registry's (HKLM) Local Machine lev
 - If a `.msi`'s uninstall switch is set to `/i`, the script will replace with the appropriate `/x` switch.
 
 ## Etcetera
-Please make use of the "helper" code built-in to the script to learn more about specific use-cases.
-- Use the following command: `Get-Help C:\file-dir\file-name.ps1 -full`
+Please make use of the "helper" code built-in to the script to learn more about syntax and view examples.
+- Use the following command: 
+```powershell
+Get-Help C:\file-dir\file-name.ps1 -full
+```
