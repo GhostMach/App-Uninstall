@@ -3,9 +3,10 @@ A Powershell script that uninstalls Win10 applications installed at the HKLM reg
 
 ## Installation
 Requires an Administration account to run a powershell script where a seperate `.bat` file can be created, without the need for an Admin account, to execute the following code:
-
-`powershell.exe -ExecutionPolicy UnRestricted -File %~dp0file-name.ps1`<br>
-`pause`
+```powershell
+powershell.exe -ExecutionPolicy UnRestricted -File %~dp0file-name.ps1
+pause
+```
 
 ## Usage
 Script can be used in a Endpoint Configuration Manager to batch uninstall legacy or unwanted applications in a large enterprise environment that manages many computers or if a domain-joined user needs to remove a locally installed application on their computer.
