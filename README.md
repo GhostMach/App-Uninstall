@@ -2,8 +2,8 @@
 A Powershell script that uninstalls Win10 applications installed at the HKLM registry level, regardless if they're `.msi` or `.exe`.
 
 ## Installation
-Requires an Administration account to run a powershell script where a seperate `.bat` file can be created, without the need for an Admin account, to execute the following code:
-```powershell
+Requires an administration account to run this code in a powershell terminal; however a seperate `.bat` file can be created, without the need for an admin account, to execute the following code:
+```batch
 powershell.exe -ExecutionPolicy UnRestricted -File %~dp0file-name.ps1
 pause
 ```
