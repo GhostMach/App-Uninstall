@@ -8,6 +8,8 @@ powershell.exe -ExecutionPolicy UnRestricted -File %~dp0file-name.ps1
 pause
 ```
 
+**Note:** Ensure both `.bat` & `.ps1` files reside in the same file directory or folder.
+
 ## Usage
 Script can be used in a Endpoint Configuration Manager to batch uninstall legacy or unwanted applications in a large enterprise environment that manages many computers or if a domain-joined user needs to remove a locally installed application on their computer.
 
