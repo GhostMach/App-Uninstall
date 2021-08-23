@@ -13,7 +13,7 @@ pause
 ## Usage
 Script can be used in a Endpoint Configuration Manager to batch uninstall legacy or unwanted applications in a large enterprise environment that manages many computers or if a domain-joined user needs to remove a locally installed application on their computer.
 
-### Uninstall Features
+### Features
 Script performs the following at the Windows registry's (HKLM) Local Machine level:
 - Tests if an application is installed, outputting the uninstall string and its location through the `-Search` switch.
 - Will uninstall multiple versions of the same application, even if an application's `AppData` is found on different user profiles through the `-Credential` switch.
