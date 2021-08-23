@@ -1,5 +1,5 @@
 # App-Uninstall
-A Powershell script that uninstalls Win10 applications installed at the HKLM registry level, regardless if they're `.msi` or `.exe`.
+Uninstalls Windows applications installed at the HKLM registry level, regardless if they're `.msi` or `.exe`.
 
 ## Installation
 Requires an administration account to run this code in a powershell terminal; however a seperate `.bat` file can be created to execute the following code without a Powershell terminal:
